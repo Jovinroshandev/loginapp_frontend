@@ -70,7 +70,7 @@ export default function Singup() {
                                 <td className="pr-5 align-top text-xs md:text-xl  text-white">Name</td>
                                 <td>
                                     <div className="pb-3">
-                                        <input style={{backgroundColor:mode?"white":"black", color:mode?"black":"white"}}  className="smooth-transition p-1 border border-gray-500  rounded-lg" onChange={handleUserName} type="text" name="name" />
+                                        <input required style={{backgroundColor:mode?"white":"black", color:mode?"black":"white"}}  className="smooth-transition p-1 border border-gray-500  rounded-lg" onChange={handleUserName} type="text" name="name" />
                                     </div>
                                 </td>
                             </tr>
@@ -78,7 +78,7 @@ export default function Singup() {
                                 <td className="pr-5 align-top text-xs md:text-xl  text-white">Password</td>
                                 <td>
                                     <div className="pb-5">
-                                        <input style={{backgroundColor:mode?"white":"black", color:mode?"black":"white"}}  className="smooth-transition p-1 border border-gray-500  rounded-lg" onChange={handlePass} type="password" name="password" />
+                                        <input required style={{backgroundColor:mode?"white":"black", color:mode?"black":"white"}}  className="smooth-transition p-1 border border-gray-500  rounded-lg" onChange={handlePass} type="password" name="password" />
                                     </div>
                                 </td>
                             </tr>
@@ -86,7 +86,7 @@ export default function Singup() {
                                 <td className="pr-5 align-top text-xs md:text-xl  text-white">Confirm Password</td>
                                 <td>
                                     <div className="pb-5">
-                                        <input style={{backgroundColor:mode?"white":"black", color:mode?"black":"white"}}  className="smooth-transition p-1 border border-gray-500   rounded-lg" onChange={handleConfrimPass} type="password" name="password" />
+                                        <input required style={{backgroundColor:mode?"white":"black", color:mode?"black":"white"}}  className="smooth-transition p-1 border border-gray-500   rounded-lg" onChange={handleConfrimPass} type="password" name="password" />
                                     </div>
                                 </td>
                             </tr>
